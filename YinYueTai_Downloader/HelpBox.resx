@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="textBoxDescription.Text" xml:space="preserve">
+    <value>1. 在左栏的搜索框内输入搜索关键字，按下回车或点击搜索按钮。
+
+2. 默认选择当页的第一个视频，右栏中显示出视频信息和操作按钮。
+
+3. 点击"下载视频"按钮，弹出对话框，选择保存路径和文件名，点击"保存"开始下载。
+
+4. 点击"在线播放"按钮，跳转到视频播放界面，开始在线视频播放，双击播发器可全屏播放。
+
+5. 点击"打开"按钮，使用系统默认播放器打开已经下载好的视频文件。
+
+6. 点击进度条，打开下载好的视频所在的文件夹。
+
+7. 点击"上一页"/"下一页"按钮并结合滚动条可以查看更多页的内容。
+
+8. 由于网络原因，有时搜索和翻页操作可能会失败，重试即可。</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA
+        AAAAAABPAAAArwAAALYAAAC1AAAAtQAAALUAAAC1AAAAtQAAALUAAAC1AAAAtQAAALUAAAC1AAAAtgAA
+        AKgAAAA3AQEBmwICAv8DBQT/AwUE/wECAv8BAQH/AgMC/wMFBf8DBQT/AQIC/wEBAf8CAwL/AwUF/wMF
+        BP8BAQH9AQEBcwMBAqEOJx7/JYBg/yR5W/8LGxX/BAID/xZHNv8nhGP/JoFh/xAuJP8EAQL/ETQo/yaD
+        Y/8ic1b/CRMQ/gQCA3kIBAahEzgr/y2whP8rp33/ECcg/woMC/8kgGH/LreI/y62iP8dX0j/CQUG/xdJ
+        OP8utYf/KZ93/w4dGP4IBQZ5DQoLoRg8MP8usIT/Lad+/xUrJP8TIR3/LJ94/y+1iP8wton/J4Vl/xAR
+        Ef8bTDz/L7WI/yufeP8TIh7+DQsMeRMPEqEdQTb/MbOI/zCrgv8aLyn/HkI3/zKziP8uo3z/MKyD/y+k
+        ff8ZJyP/IFBB/zK4i/8uo3z/GSgk/hMQEnkaFhihI0c8/zW3i/80r4X/ITYw/ypqVf83vpD/KnZd/y6P
+        b/82uY3/JEg9/yVVRf82u47/M6eA/yAvK/4ZFhh5IBwfoSlNQv85u47/OLOI/yhCOv80kXH/Or6Q/ypS
+        Rf8ucVv/O8OT/y9vWv8rW0v/OsCR/zerg/8mNTH+HxwfeScjJqEwU0j/Pb+T/zy1jP8wWEv/PK+I/zux
+        if8tPTn/MFdL/z3BlP84lHb/MWZV/z7Dlv87r4j/LTw4/iYjJXktKSyhNVlO/0HCl/8/uI//OHZi/0HC
+        l/88m3v/MzU2/zRFQf8/tI3/P7KM/zh6Zf9BxZn/P7KM/zNDP/4sKSt5NDAzoTxfVf9Fxpr/Q7yU/0Ca
+        fP9Fy57/PoBq/zo4O/86PT7/QZ+A/0XGmv8/l3r/Rcic/0O3kP86SUb+Mi8yeTk2OaFBZVr/SMmd/0jG
+        m/9HvpX/SMmc/0FmW/9APkH/QD9B/0OEb/9IzqD/R7qT/0jMn/9Hu5P/QE9M/jc1OHk/Oz+hRmpf/0vL
+        oP9Mz6P/TNCj/0q7lf9GVVL/R0ZJ/0dFSP9Ga2D/S8qf/0zPo/9M0KP/Sr2W/0VVUv49Oj15REBDoUpu
+        Y/9MzaH/TNGk/0zTpf9LpIf/S05P/0xMTv9MS03/S1pX/0u9l/9M0qX/TNKl/0u/mP9KWlb+QT9CektJ
+        TJdPXVv/TH5v/0x/cP9MgHD/Tmpi/1BQU/9QUFP/UFBT/1BSVP9NdGn/TIBw/0yAcP9NeWz/UFZW/UhH
+        SnBcXF86X15ij15aX5VeWl+VXllflV5cYJVeXmKVXl5ilV5eYpVeXmKVXltglV5ZX5VeWl+VXlpflV9f
+        YohbW10nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAA==
+</value>
+  </data>
+</root>
