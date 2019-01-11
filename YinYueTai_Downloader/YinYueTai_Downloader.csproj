@@ -146,8 +146,13 @@
     </COMReference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="api\artist_api.txt" />
+    <Content Include="api\video_api.txt" />
+    <Content Include="api\video_info.txt" />
+    <Content Include="api\video_url.txt" />
     <Content Include="icon_72px.ico" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

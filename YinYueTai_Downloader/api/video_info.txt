@@ -1,0 +1,63 @@
+GET http://ext.yinyuetai.com/main/get-h-mv-info
+
+Request Headers: {
+	User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36,
+	Cookie: tid=beu1ZFb61bolKqehSgbcU9EI; yyt_pref=2; yinyuetai_uid=ahba6T2u1boDoDHucReAoG3J; Hm_lvt_5885921252431e994a0a9617e39e9d73=1545751287; Hm_lpvt_5885921252431e994a0a9617e39e9d73=1545751287,
+	Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7,ja;q=0.6,
+	Accept-Encoding: gzip, deflate,
+	Accept: */*
+}
+
+Request Params: {
+	json: true,
+	videoId: ${videoId}
+}
+
+Response Body: {
+    "message": "",
+    "error": false,
+    "logined": false,
+    "videoInfo": {
+        "pageUrl": "http://v.yinyuetai.com/video/34607",
+        "secretKeyUri": "http://api.yinyuetai.com/mv/secret-key",
+        "coreVideoInfo": {
+            "videoId": 34607,
+            "videoName": "向阳花 现场版",
+            "headImage": "//img3.c.yinyuetai.com/video/mv/160120/0/-M-f7747ee3318ba8d8efda0deafcacbbe4_120x67.jpg?ts=1453231756",
+            "bigHeadImage": "//img3.c.yinyuetai.com/video/mv/160120/0/-M-f7747ee3318ba8d8efda0deafcacbbe4_240x135.jpg?ts=1453231756",
+            "videoUrlModels": [
+                {
+                    "bitrateType": 1,
+                    "bitrate": 779,
+                    "qualityLevel": "hc",
+                    "qualityLevelName": "流畅",
+                    "QualityLevelName": "流畅",
+                    "videoUrl": "http://hc.yinyuetai.com/uploads/videos/common/E5DF013A73C0768A2F989FEEE62E35FF.flv?sc=1e3e4bb964f4281d&br=779&vid=34607&aid=2798&area=ML&vst=2",
+                    "fileSize": 30221332,
+                    "sha1": "2ebcbd5b55bf364fdfe140d9a9ad5de3ae6c1b69",
+                    "md5": "dac07b16cc5a7e7884c1a37e508be4a7"
+                },
+                {
+                    "bitrateType": 3,
+                    "bitrate": 3134,
+                    "qualityLevel": "he",
+                    "qualityLevelName": "超清",
+                    "QualityLevelName": "超清",
+                    "videoUrl": "http://he.yinyuetai.com/uploads/videos/common/890A013A8734E65931084CE454631399.flv?sc=0d6488902954b337&br=3134&vid=34607&aid=2798&area=ML&vst=2",
+                    "fileSize": 121503937,
+                    "sha1": "a8894ba881be2bc90ca9bea0ccc9390eaadd20bb",
+                    "md5": "82f2a800de88cf8e33690977caef614e"
+                }
+            ],
+            "duration": 310,
+            "artistIds": "2798",
+            "artistNames": "谢天笑",
+            "threeD": false,
+            "error": false,
+            "errorMsg": "",
+            "source": "live",
+            "modelType": "common"
+        },
+        "partner": false
+    }
+}

@@ -1,0 +1,21 @@
+GET http://so.yinyuetai.com/search/video-search
+
+Request Headers: {
+	Host: so.yinyuetai.com,
+	Referer: http://m2.yinyuetai.com/so.html,
+	User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36,
+	Cookie: tid=beu1ZFb61bolKqehSgbcU9EI; yyt_pref=2; yinyuetai_uid=ahba6T2u1boDoDHucReAoG3J; Hm_lvt_5885921252431e994a0a9617e39e9d73=1545751287; Hm_lpvt_5885921252431e994a0a9617e39e9d73=1545751287,
+	Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7,ja;q=0.6,
+	Accept-Encoding: gzip, deflate,
+	Accept: */*
+}
+
+Request Params: {
+	callback: jsonpHd7t3Z,
+	_api: get.videoList,
+	_mock: false,
+	keyword: 向阳花,
+	pageSize: 10,
+	pageIndex: 1,
+	offset: 0
+}
